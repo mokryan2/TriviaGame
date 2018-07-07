@@ -25,6 +25,7 @@ header{
     width: 1150px;
     margin-left: 12%;
     margin-top: -1%;
+
 }
 
 .question{
@@ -39,7 +40,12 @@ header{
 .answer{
     font-size: 32px;
     width: 60%;
-    text-align:center
+    text-align:center;
+    cursor: pointer;
+    transition: background-color .25s;
+}
+.answer:hover{
+    background-color: white;
 }
 
 .answerBG{
