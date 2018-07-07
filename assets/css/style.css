@@ -1,0 +1,135 @@
+/* General */
+body {
+    background-image: url(../images/curls.png);
+    font-family: 'Russo One', sans-serif;
+}
+
+header{
+    width: 600px;
+    height: 85px;
+    margin-bottom: 18px;
+    margin-left: 30.85%;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    text-decoration: underline;
+    letter-spacing: 5%;
+
+}
+
+.container{
+    background-image: url(../images/download.jpg);
+    border: 10px solid white;
+    position: fixed;
+    height: 565px;
+    width: 1150px;
+    margin-left: 12%;
+    margin-top: -1%;
+}
+
+.question{
+    background: white;
+    border: 5px solid black;
+    width: 985px;
+    font-size: 38px;
+    text-align:center;
+    margin-left: 7%;
+}
+
+.answer{
+    font-size: 32px;
+    width: 60%;
+    text-align:center
+}
+
+.answerBG{
+    background-color: rgb(65, 164, 225);
+    border: 5px solid rgba(19, 243, 7, 0.857);
+    margin-left: 20%;
+}
+
+.result{
+    background: white;
+    border: 5px solid black;
+    width:975px;
+    margin-bottom: 10px;
+    margin-left:7%;
+    font-size: 38px;
+    text-align:center;
+}
+
+.timer{
+    font-size: 28px;
+    text-align: center;
+    background: greenyellow;
+    border: 5px dotted red;
+    width: 16%;
+    margin-left:41%;
+    
+}
+
+.complete{
+    background: white;
+    border: 5px solid black;
+    width:975px;
+    margin-bottom: 10px;
+    margin-left:7%;
+    text-align: center;
+    font-size: 36px;
+}
+
+.endResult{
+    background: white;
+    border: 5px solid black;
+    width:975px;
+    margin-bottom: 10px;
+    margin-left:7%;
+    text-align: center;
+    font-size: 36px;
+}
+
+
+/* Images */
+.correctPic{
+    height:350px;
+    width:500px;
+    margin-left: 27%;
+    border: 5px solid black;
+}
+
+.incorrectPic{
+    height:350px;
+    width:500px;
+    margin-left: 27%;
+    border: 5px solid black;
+}
+
+.outOfTimePic{
+    height:350px;
+    width:500px;
+    margin-left: 27%;
+    border: 5px solid black;
+}
+
+/* Buttons/Mechanics */
+#startButton{
+    height: 135px;
+    width: 250px;
+    font-size: 36px;
+    margin-left: 38.5%;
+    margin-top:16%;
+    font-family: 'Russo One', sans-serif;
+}
+
+#restartButton{
+    font-size: 24px;
+    height: 90px;
+    width:220px;
+    margin-left:39%;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+
+
+
