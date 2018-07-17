@@ -125,6 +125,13 @@ header{
     margin-left: 38.5%;
     margin-top:16%;
     font-family: 'Russo One', sans-serif;
+    cursor: pointer;
+    border: 5px solid black;
+    transition: background-color .25s;
+}
+
+#startButton:hover{
+    background-color: red;
 }
 
 #restartButton{
@@ -133,6 +140,13 @@ header{
     width:220px;
     margin-left:39%;
     font-family: 'Russo One', sans-serif;
+    cursor: pointer;
+    border: 5px solid black;
+    transition: background-color .25s;
+}
+
+#restartButton:hover{
+    background-color: rgb(20, 81, 20);
 }
 
 

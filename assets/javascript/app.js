@@ -51,7 +51,6 @@ $("#startButton").on("click", function () {
 });
 
 $("body").on("click", ".answer", function (event) {
-    console.log(this);
     selectedAnswer = $(this).text();
     if (selectedAnswer === correctAnswers[questionCounter]) {
         clearInterval(clock);
@@ -107,7 +106,7 @@ function renderRight() {
     $(".container").append("<p class='result'>" + correctAnswers[questionCounter] + " was the right answer!!</p>");
     $(".container").append("<img class='correctPic' src='assets/images/correct.jpg'>");
     //transitionTime();
-    setTimeout(transitionTime, 3000);
+    setTimeout(transitionTime, 2000);
 }
 
 //-----Wrong Answer-----//
@@ -117,7 +116,7 @@ function renderWrong() {
     $(".container").append("<p class='result'>The correct answer was " + correctAnswers[questionCounter] + "!</p>");
     $(".container").append("<img class='incorrectPic' src='assets/images/incorrect.jpg'>");
     //transitionTime();
-    setTimeout(transitionTime, 3000);
+    setTimeout(transitionTime, 2000);
 }
 
 //-----Question Transition-----//
